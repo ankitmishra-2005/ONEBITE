@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ONEBITE - CHECKOUT / PLACE ORDER</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="container">
+  <div class="topline"><div class="brand">ONEBITE</div><strong>CLIENT SIDE</strong></div>
+  <div class="page-title">CHECKOUT / PLACE ORDER</div>
+  <nav class="navbar">
+    <div class="nav-brand">ONEBITE</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact-feedback.html">About</a>
+      <a href="contact-feedback.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </div>
+  </nav>
+
+<div class="form-layout"><form onsubmit="event.preventDefault();alert('Order placed successfully!');">
+<div class="form-row"><label>Full Name</label><input class="input" required></div>
+<div class="form-row"><label>Phone Number</label><input class="input" required></div>
+<div class="form-row"><label>Address</label><input class="input" required></div>
+<div class="form-row"><label>City</label><input class="input" required></div>
+<div class="form-row"><label>Pincode</label><input class="input" required></div>
+<button class="btn" type="submit" style="margin-left:130px">PLACE ORDER</button></form>
+<div class="summary"><h2>ORDER SUMMARY</h2><p>Pizza × 2 &nbsp;&nbsp; ₹400</p><p>Burger × 1 &nbsp;&nbsp; ₹150</p><p>Delivery &nbsp;&nbsp; ₹50</p><div class="summary-row total"><span>TOTAL</span><span>₹600</span></div></div></div>
+
+  <footer class="footer"><span>ONEBITE &nbsp;|&nbsp; About &nbsp;|&nbsp; Contact &nbsp;|&nbsp; Help</span><span>© ONEBITE</span></footer>
+</div>
+</body></html>
